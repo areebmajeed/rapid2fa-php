@@ -16,4 +16,4 @@ You can find the details on how to use the class at our [API Documentation](http
  - Initialize the class with your Rapid 2FA API and Secret.
  
 ## Notes ##
-If you've any question or query, please feel free to write to contact us. You can tweet at @hackingtag or write an email to support[at]rapid2fa[dot]com.
+If you've any question or query, please feel free to contact us. You can tweet at @hackingtag or write an email to support[at]rapid2fa[dot]com.
