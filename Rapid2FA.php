@@ -78,7 +78,7 @@ class Rapid2FA {
         }
     }
     /**
-     * Generate a hosted page or simply a user session.
+     * Validate the session hash returned by the user.
      * Throw exception on error.
      */
     function handleVerification($hash) {
