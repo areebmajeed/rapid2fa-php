@@ -81,10 +81,11 @@ class Rapid2FA {
      * Validate the session hash returned by the user.
      * Throw exception on error.
      */
-    function handleVerification($hash) {
+    function handleVerification($user_id,$hash) {
         $data = array();
         $data['api_key'] = $this->api_key;
         $data['api_secret'] = $this->api_secret;
+        $data['user'] = $user_id;
         $data['hash'] = $hash;
         $data['method'] = 'verify_authentication';
         $response = $this->postData($this->api_endpoint, $data);
