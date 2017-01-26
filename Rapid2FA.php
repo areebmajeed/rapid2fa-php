@@ -25,6 +25,7 @@ class Rapid2FA {
      * Returns the data.
      */
     function postData($url, $fields) {
+        $post_data_string = "";
         foreach ($fields as $key => $value) {
             $post_data_string.= $key . '=' . urlencode($value) . '&';
         }
