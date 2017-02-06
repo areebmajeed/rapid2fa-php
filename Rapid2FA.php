@@ -2,7 +2,7 @@
 /**
  * PHP Class for handling Rapid 2FA integration.
  *
- * @author Areeb Majeed, Negar
+ * @author Areeb Majeed, Negar, Rapid2FA.com
  * @copyright 2017 Rapid 2FA
  * @license https://opensource.org/licenses/MIT MIT License
  *
